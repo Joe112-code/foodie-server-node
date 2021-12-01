@@ -1,0 +1,24 @@
+use foodie
+
+db.personalprofile.insert({
+  "firstName": "Joe",
+  "lastName": "Lee",
+  "email": "joe@gmail.com",
+  "location": "Boston, MA",
+  "dateOfBirth": "1968/07/07",
+  "dateJoined": "2009/04",
+  "profilePicture": "/images/foodie2.jpg"
+})
+
+db.businessprofile.insert({
+                              "firstName": "Victoria",
+                              "lastName": "Duff",
+                              "restaurantName": "Victoria's Seafood",
+                              "email": "joe's@gmail.com",
+                              "address": "123 Main St, Boston, MA",
+                              "dateJoined": "2009/04",
+                              "profilePicture": "/images/joe.jpg",
+                              "tag": "American Bar & Grill",
+                              "rating": 3.9
+                            })
+
