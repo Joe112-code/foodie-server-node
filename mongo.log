@@ -5,8 +5,8 @@ db.personalprofile.insert({
   "lastName": "Lee",
   "email": "joe@gmail.com",
   "location": "Boston, MA",
-  "dateOfBirth": "1968/07/07",
-  "dateJoined": "2009/04",
+  "dateOfBirth": "2001-02-01",
+  "dateJoined": "2021/04",
   "profilePicture": "/images/foodie2.jpg"
 })
 
