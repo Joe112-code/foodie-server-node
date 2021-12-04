@@ -20,5 +20,7 @@ app.use(function(req, res, next) {
 
 require('./services/personalProfile-service')(app);
 require('./services/businessProfile-service')(app);
+require('./services/myRestaurantProfile-service')(app);
+require('./services/myComments-service')(app);
 
 app.listen(5000);

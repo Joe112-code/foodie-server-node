@@ -22,3 +22,36 @@ db.businessprofile.insert({
                               "rating": 3.9
                             })
 
+db.my_restaurant_profile.insert({
+                                    "restaurantName": "Joe's",
+                                    "address": "123 Main St, Boston, MA",
+                                    "profilePicture": "/images/joe.jpg",
+                                    "tag": "American Bar & Grill",
+                                    "rating":3.9
+                                  })
+db.my_restaurant_profile.insert({
+                                    "restaurantName": "Happy Kitchen",
+                                    "address": "23 Kirkwood St, Boston, MA",
+                                    "profilePicture": "/images/joe.jpg",
+                                    "tag": "Chinese",
+                                    "rating":4.9
+                                  })
+
+db.my_comments.insert({   "avatarIcon": "/images/Davio.jpg",
+                          "name": "Davio's - Seaport",
+                          "rating": 4.6,
+                          "tag": "Steakhouse",
+                          "location": "Boston / Seaport",
+                          "date": "2021/11/23",
+                          "comments": "Not bad! Good things come for those who are willing to wait. That is definitely a phrase the applies to Neptune Oyster."
+                        })
+db.my_comments.insert({   "avatarIcon": "/images/Davio.jpg",
+                          "name": "Davio's - Seaport",
+                          "rating": 4.6,
+                          "tag": "Steakhouse",
+                          "location": "Boston / Seaport",
+                          "date": "2021/11/23",
+                          "comments": "Not bad! Good things come for those who are willing to wait. That is definitely a phrase the applies to Neptune Oyster."
+                        })
+
+

@@ -1,15 +1,11 @@
 const mongoose = require('mongoose');
 const profile_schema = mongoose.Schema({
-                                           firstName: String,
-                                           lastName: String,
-                                           restaurantName: String,
+                                           name: String,
                                            email: String,
-                                           profilePicture: String,
+                                           image_url: String,
                                            address: String,
                                            dateOfBirth: String,
-                                           dateJoined: String,
-                                           tag:String,
-                                           rating:Number
+                                           tel:Number
 
                                    }, {collection: "businessprofile"});
 module.exports = profile_schema;

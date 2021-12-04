@@ -1,12 +1,10 @@
 const mongoose = require('mongoose');
 const profile_schema = mongoose.Schema({
-
                                            name: String,
-                                           email: String,
                                            image_url: String,
                                            location: String,
-                                           dateOfBirth: String,
-                                           dateJoined: String
+                                           categories:String,
+                                           rating:Number
 
-                                   }, {collection: "personalprofile"});
+                                   }, {collection: "my_restaurant_profile"});
 module.exports = profile_schema;
